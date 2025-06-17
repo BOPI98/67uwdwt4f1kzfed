@@ -1,19 +1,39 @@
-package main
+package server
 
 import (
+	"database/sql"
 	"encoding/json"
 	"io"
-	"main/books"
-	"main/borrowers"
 	"net/http"
 	"strconv"
+
+	"github.com/BOPI98/67uwdwt4f1kzfed/books"
+	"github.com/BOPI98/67uwdwt4f1kzfed/borrowers"
 )
 
-func Handle_Books(w http.ResponseWriter, r *http.Request) {
+type LibraryHandler struct {
+	db *sql.DB
+}
+
+func NewLibraryHandler(db *sql.DB) LibraryHandler {
+	return LibraryHandler{
+		db: db,
+	}
+}
+
+func (this *LibraryHandler) RegisterRoutes(mux *http.ServeMux) {
+	mux.HandleFunc("/books", this.Handle_Books)
+	mux.HandleFunc("/books/{id}/borrow", this.Handle_Books_Id_Borrow)
+	mux.HandleFunc("/borrowers", this.Handle_Borrowers)
+	mux.HandleFunc("/borrowers/{id}", this.Handle_Borrowers_Id)
+	mux.HandleFunc("/borrowers/{id}/borrowedbooks", this.Handle_Borrowers_Id_BorrowedBooks)
+}
+
+func (this *LibraryHandler) Handle_Books(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 	switch r.Method {
 	case http.MethodGet:
-		Result, err := books.ListBooks(db, ctx)
+		Result, err := books.ListBooks(this.db, ctx)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusBadRequest)
 			return
@@ -32,7 +52,7 @@ func Handle_Books(w http.ResponseWriter, r *http.Request) {
 			http.Error(w, "Failed to unmarshal request body: "+err.Error(), http.StatusBadRequest)
 			return
 		}
-		bookId, err := books.AddBooks(db, ctx, req)
+		bookId, err := books.AddBooks(this.db, ctx, req)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusBadRequest)
 			return
@@ -42,16 +62,14 @@ func Handle_Books(w http.ResponseWriter, r *http.Request) {
 		}{bookId})
 	default:
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
-		return
 	}
-
 }
 
 type BookBorrowRequest struct {
 	BorrowerId int `json:"borrowerId"`
 }
 
-func Handle_Books_Id_Borrow(w http.ResponseWriter, r *http.Request) {
+func (this *LibraryHandler) Handle_Books_Id_Borrow(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPatch {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
 		return
@@ -78,7 +96,7 @@ func Handle_Books_Id_Borrow(w http.ResponseWriter, r *http.Request) {
 	}
 
 	ctx := r.Context()
-	err = books.BorrowBook(db, ctx, bookId, req.BorrowerId)
+	err = books.BorrowBook(this.db, ctx, bookId, req.BorrowerId)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
@@ -86,7 +104,7 @@ func Handle_Books_Id_Borrow(w http.ResponseWriter, r *http.Request) {
 	respondWithJson(w, struct{}{})
 }
 
-func Handle_Borrowers(w http.ResponseWriter, r *http.Request) {
+func (this *LibraryHandler) Handle_Borrowers(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
 		return
@@ -106,7 +124,7 @@ func Handle_Borrowers(w http.ResponseWriter, r *http.Request) {
 	}
 
 	ctx := r.Context()
-	borrowerId, err := borrowers.CreateBorrower(db, ctx, req)
+	borrowerId, err := borrowers.CreateBorrower(this.db, ctx, req)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
@@ -116,15 +134,15 @@ func Handle_Borrowers(w http.ResponseWriter, r *http.Request) {
 	}{borrowerId})
 }
 
-func Handle_Borrowers_Id(w http.ResponseWriter, r *http.Request) {
+func (this *LibraryHandler) Handle_Borrowers_Id(w http.ResponseWriter, r *http.Request) {
+	ctx := r.Context()
 	idStr := r.PathValue("id")
 	borrowerId, err := strconv.Atoi(idStr)
 	if err != nil {
 		http.Error(w, "Invalid borrowerId in request URL: "+err.Error(), http.StatusBadRequest)
 		return
 	}
-	ctx := r.Context()
-	Result, err := borrowers.GetBorrower(db, ctx, borrowerId)
+	Result, err := borrowers.GetBorrower(this.db, ctx, borrowerId)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
@@ -132,7 +150,7 @@ func Handle_Borrowers_Id(w http.ResponseWriter, r *http.Request) {
 	respondWithJson(w, Result)
 }
 
-func Handle_Borrowers_Id_BorrowedBooks(w http.ResponseWriter, r *http.Request) {
+func (this *LibraryHandler) Handle_Borrowers_Id_BorrowedBooks(w http.ResponseWriter, r *http.Request) {
 	idStr := r.PathValue("id")
 	borrowerId, err := strconv.Atoi(idStr)
 	if err != nil {
@@ -140,7 +158,7 @@ func Handle_Borrowers_Id_BorrowedBooks(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	ctx := r.Context()
-	books, err := borrowers.BorrowedBooks(db, ctx, borrowerId)
+	books, err := borrowers.BorrowedBooks(this.db, ctx, borrowerId)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return

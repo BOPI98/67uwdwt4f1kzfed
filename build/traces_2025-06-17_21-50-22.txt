@@ -1,0 +1,3736 @@
+{
+	"Name": "sql.connector.connect",
+	"SpanContext": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "c41f49254647bac0",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "8615c560927a5d7c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9805268+02:00",
+	"EndTime": "2025-06-17T21:50:25.9858433+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.begin_tx",
+	"SpanContext": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "45ed4fbe9c29ed0b",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "8615c560927a5d7c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9858433+02:00",
+	"EndTime": "2025-06-17T21:50:25.9858433+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.connector.connect",
+	"SpanContext": {
+		"TraceID": "4ac5f17caf2c877db7c7b48d2903eb23",
+		"SpanID": "1874636c1c29bf1d",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9858433+02:00",
+	"EndTime": "2025-06-17T21:50:25.9863615+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.query",
+	"SpanContext": {
+		"TraceID": "278dc7e148f207df4f1f8485f51e8bea",
+		"SpanID": "17329b3faa5112fb",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9863615+02:00",
+	"EndTime": "2025-06-17T21:50:25.9863615+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*errors.errorString"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "driver: skip fast-path; continue as if unimplemented"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "2025-06-17T21:50:25.9863615+02:00"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.prepare",
+	"SpanContext": {
+		"TraceID": "5f702e7cbc88aa4104eb2d111b77bfa6",
+		"SpanID": "e0250a724f8aa18d",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9863615+02:00",
+	"EndTime": "2025-06-17T21:50:25.9863615+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.stmt.query",
+	"SpanContext": {
+		"TraceID": "2e9c13608d923c15afa2e67b8cc9bb11",
+		"SpanID": "1caf662b3e127625",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9863615+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.rows",
+	"SpanContext": {
+		"TraceID": "c42a63c8316a459150f476b9e1e68059",
+		"SpanID": "888af8cc45d8c124",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.reset_session",
+	"SpanContext": {
+		"TraceID": "dea3a091190e9a5f85dd24516a3a0acb",
+		"SpanID": "ec43b8d195cdfe63",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.query",
+	"SpanContext": {
+		"TraceID": "a0d9c0c89bf6824f2eec1a3001eba90a",
+		"SpanID": "4c4ae3a3c1654a3c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BOOKS WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*errors.errorString"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "driver: skip fast-path; continue as if unimplemented"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "2025-06-17T21:50:25.9869577+02:00"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.prepare",
+	"SpanContext": {
+		"TraceID": "cd8a43d2ae681946b349971ce4651213",
+		"SpanID": "d23b667cafb8f687",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BOOKS WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.stmt.query",
+	"SpanContext": {
+		"TraceID": "3926b0b6aee5d9b611f5c9668ecef957",
+		"SpanID": "90db01dd6155cfad",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BOOKS WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.rows",
+	"SpanContext": {
+		"TraceID": "826bf50b82583fc755b49b581f104b78",
+		"SpanID": "f24a6c20d2e81629",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.exec",
+	"SpanContext": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "840a066f9331f81e",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "8615c560927a5d7c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "UPDATE BOOKS SET `BorrowedBy`=? WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*errors.errorString"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "driver: skip fast-path; continue as if unimplemented"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "2025-06-17T21:50:25.9869577+02:00"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.prepare",
+	"SpanContext": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "cf3b72b7e44cf2bb",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "8615c560927a5d7c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "UPDATE BOOKS SET `BorrowedBy`=? WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.stmt.exec",
+	"SpanContext": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "b68467b052050e97",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "8615c560927a5d7c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "UPDATE BOOKS SET `BorrowedBy`=? WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.tx.commit",
+	"SpanContext": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "0982c9e41e4e2acf",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "8615c560927a5d7c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:25.9869577+02:00",
+	"EndTime": "2025-06-17T21:50:25.9869577+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "borrow-book",
+	"SpanContext": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "8615c560927a5d7c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "9c51888a97624a6b",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "2025-06-17T21:50:25.9800193+02:00",
+	"EndTime": "2025-06-17T21:50:25.9874636+02:00",
+	"Attributes": [
+		{
+			"Key": "borrowerId",
+			"Value": {
+				"Type": "INT64",
+				"Value": 2
+			}
+		},
+		{
+			"Key": "bookId",
+			"Value": {
+				"Type": "INT64",
+				"Value": 2
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 6,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "book-tracer",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "book-tracer",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "handler",
+	"SpanContext": {
+		"TraceID": "7b1aee0a2bcc5844626d3e851dd326ba",
+		"SpanID": "9c51888a97624a6b",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 2,
+	"StartTime": "2025-06-17T21:50:25.9800193+02:00",
+	"EndTime": "2025-06-17T21:50:25.9875217+02:00",
+	"Attributes": [
+		{
+			"Key": "server.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "localhost"
+			}
+		},
+		{
+			"Key": "http.request.method",
+			"Value": {
+				"Type": "STRING",
+				"Value": "PATCH"
+			}
+		},
+		{
+			"Key": "url.scheme",
+			"Value": {
+				"Type": "STRING",
+				"Value": "http"
+			}
+		},
+		{
+			"Key": "server.port",
+			"Value": {
+				"Type": "INT64",
+				"Value": 8080
+			}
+		},
+		{
+			"Key": "network.peer.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "::1"
+			}
+		},
+		{
+			"Key": "network.peer.port",
+			"Value": {
+				"Type": "INT64",
+				"Value": 54185
+			}
+		},
+		{
+			"Key": "user_agent.original",
+			"Value": {
+				"Type": "STRING",
+				"Value": "PostmanRuntime/7.44.0"
+			}
+		},
+		{
+			"Key": "client.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "::1"
+			}
+		},
+		{
+			"Key": "url.path",
+			"Value": {
+				"Type": "STRING",
+				"Value": "/books/2/borrow"
+			}
+		},
+		{
+			"Key": "network.protocol.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.1"
+			}
+		},
+		{
+			"Key": "http.request.body.size",
+			"Value": {
+				"Type": "INT64",
+				"Value": 24
+			}
+		},
+		{
+			"Key": "http.response.body.size",
+			"Value": {
+				"Type": "INT64",
+				"Value": 2
+			}
+		},
+		{
+			"Key": "http.response.status_code",
+			"Value": {
+				"Type": "INT64",
+				"Value": 200
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+		"Version": "0.61.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+		"Version": "0.61.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.reset_session",
+	"SpanContext": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "87c005460d83c387",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "6d21c6f62801f371",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.begin_tx",
+	"SpanContext": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "939fa701f2bccd9b",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "6d21c6f62801f371",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.reset_session",
+	"SpanContext": {
+		"TraceID": "9c7ab53750596e6348647ac420c52fb9",
+		"SpanID": "958078d5e7417565",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.query",
+	"SpanContext": {
+		"TraceID": "1ea759065bfe6cf6557cdee65b6924d4",
+		"SpanID": "1e278c5a96146349",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*errors.errorString"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "driver: skip fast-path; continue as if unimplemented"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "2025-06-17T21:50:31.0678611+02:00"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.prepare",
+	"SpanContext": {
+		"TraceID": "17daf5247ef1faf08383aac620b65022",
+		"SpanID": "a902bb3fc3d6c7ad",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.stmt.query",
+	"SpanContext": {
+		"TraceID": "2997e7a5709285c42154a7b44d038376",
+		"SpanID": "254db8d07ee0e0e1",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.rows",
+	"SpanContext": {
+		"TraceID": "6a200b1a8483465b5ce19d4c6e8ba491",
+		"SpanID": "47877580586e9798",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.reset_session",
+	"SpanContext": {
+		"TraceID": "4e874c9c71fee523ca10b61f9963d217",
+		"SpanID": "733350fe89cb80e8",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.query",
+	"SpanContext": {
+		"TraceID": "69584991c925a79a7beb08cb2f2f6214",
+		"SpanID": "9d04332410d694d9",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BOOKS WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*errors.errorString"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "driver: skip fast-path; continue as if unimplemented"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "2025-06-17T21:50:31.0678611+02:00"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.prepare",
+	"SpanContext": {
+		"TraceID": "84f9e4395d3becefab021d922e299a85",
+		"SpanID": "1f1a91a43d2d1391",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0678611+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BOOKS WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.stmt.query",
+	"SpanContext": {
+		"TraceID": "cfb760f9515cc9a91860ccfdeeaec154",
+		"SpanID": "10a059e0bdaaf0e4",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0683763+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BOOKS WHERE `BookId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.rows",
+	"SpanContext": {
+		"TraceID": "c6b6589d3f4072a266f37395b9d61be3",
+		"SpanID": "e0f985e3b566e90f",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0683763+02:00",
+	"EndTime": "2025-06-17T21:50:31.0684209+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.tx.rollback",
+	"SpanContext": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "e29606cf462dc754",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "6d21c6f62801f371",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:31.0684209+02:00",
+	"EndTime": "2025-06-17T21:50:31.0684209+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "borrow-book",
+	"SpanContext": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "6d21c6f62801f371",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "98229bcb929a1f4c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "2025-06-17T21:50:31.0678611+02:00",
+	"EndTime": "2025-06-17T21:50:31.0684209+02:00",
+	"Attributes": [
+		{
+			"Key": "borrowerId",
+			"Value": {
+				"Type": "INT64",
+				"Value": 2
+			}
+		},
+		{
+			"Key": "bookId",
+			"Value": {
+				"Type": "INT64",
+				"Value": 99999992
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 3,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "book-tracer",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "book-tracer",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "handler",
+	"SpanContext": {
+		"TraceID": "5ff18ede537ac8c239736a759fd3c907",
+		"SpanID": "98229bcb929a1f4c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 2,
+	"StartTime": "2025-06-17T21:50:31.0673303+02:00",
+	"EndTime": "2025-06-17T21:50:31.0684209+02:00",
+	"Attributes": [
+		{
+			"Key": "server.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "localhost"
+			}
+		},
+		{
+			"Key": "http.request.method",
+			"Value": {
+				"Type": "STRING",
+				"Value": "PATCH"
+			}
+		},
+		{
+			"Key": "url.scheme",
+			"Value": {
+				"Type": "STRING",
+				"Value": "http"
+			}
+		},
+		{
+			"Key": "server.port",
+			"Value": {
+				"Type": "INT64",
+				"Value": 8080
+			}
+		},
+		{
+			"Key": "network.peer.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "::1"
+			}
+		},
+		{
+			"Key": "network.peer.port",
+			"Value": {
+				"Type": "INT64",
+				"Value": 54199
+			}
+		},
+		{
+			"Key": "user_agent.original",
+			"Value": {
+				"Type": "STRING",
+				"Value": "PostmanRuntime/7.44.0"
+			}
+		},
+		{
+			"Key": "client.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "::1"
+			}
+		},
+		{
+			"Key": "url.path",
+			"Value": {
+				"Type": "STRING",
+				"Value": "/books/99999992/borrow"
+			}
+		},
+		{
+			"Key": "network.protocol.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.1"
+			}
+		},
+		{
+			"Key": "http.request.body.size",
+			"Value": {
+				"Type": "INT64",
+				"Value": 24
+			}
+		},
+		{
+			"Key": "http.response.body.size",
+			"Value": {
+				"Type": "INT64",
+				"Value": 14
+			}
+		},
+		{
+			"Key": "http.response.status_code",
+			"Value": {
+				"Type": "INT64",
+				"Value": 400
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+		"Version": "0.61.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+		"Version": "0.61.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.reset_session",
+	"SpanContext": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "4fed1097e930b22c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "18747a6a07fb89bd",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:40.052821+02:00",
+	"EndTime": "2025-06-17T21:50:40.052821+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.begin_tx",
+	"SpanContext": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "fbe2403885b1ff49",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "18747a6a07fb89bd",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:40.052821+02:00",
+	"EndTime": "2025-06-17T21:50:40.052821+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.reset_session",
+	"SpanContext": {
+		"TraceID": "ba0a455d76b601e1912ac81d2fe76021",
+		"SpanID": "49f69c5561616a28",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:40.052821+02:00",
+	"EndTime": "2025-06-17T21:50:40.052821+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.query",
+	"SpanContext": {
+		"TraceID": "b683b872d966fb3ce8646b0e911575ed",
+		"SpanID": "f9b46e88d8c16cc7",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:40.052821+02:00",
+	"EndTime": "2025-06-17T21:50:40.052821+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*errors.errorString"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "driver: skip fast-path; continue as if unimplemented"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "2025-06-17T21:50:40.052821+02:00"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.conn.prepare",
+	"SpanContext": {
+		"TraceID": "23438d56838d0c84210e1431c1aa69a3",
+		"SpanID": "31f00e4d687df22c",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:40.052821+02:00",
+	"EndTime": "2025-06-17T21:50:40.052821+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.stmt.query",
+	"SpanContext": {
+		"TraceID": "7d7fe56d7fc3e25102727e7e9d3a61d2",
+		"SpanID": "0f1ebeb09e514ec9",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:40.052821+02:00",
+	"EndTime": "2025-06-17T21:50:40.053341+02:00",
+	"Attributes": [
+		{
+			"Key": "db.statement",
+			"Value": {
+				"Type": "STRING",
+				"Value": "SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?"
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.rows",
+	"SpanContext": {
+		"TraceID": "562b91e391736bf580e2d43991bfce4b",
+		"SpanID": "751d477405f258d6",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:40.053341+02:00",
+	"EndTime": "2025-06-17T21:50:40.053341+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "sql.tx.rollback",
+	"SpanContext": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "7a8708981d671911",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "18747a6a07fb89bd",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 3,
+	"StartTime": "2025-06-17T21:50:40.053341+02:00",
+	"EndTime": "2025-06-17T21:50:40.053341+02:00",
+	"Attributes": null,
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "github.com/XSAM/otelsql",
+		"Version": "0.39.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "borrow-book",
+	"SpanContext": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "18747a6a07fb89bd",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "c2dbea574ec18570",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "2025-06-17T21:50:40.052821+02:00",
+	"EndTime": "2025-06-17T21:50:40.053341+02:00",
+	"Attributes": [
+		{
+			"Key": "borrowerId",
+			"Value": {
+				"Type": "INT64",
+				"Value": 2999999999
+			}
+		},
+		{
+			"Key": "bookId",
+			"Value": {
+				"Type": "INT64",
+				"Value": 2
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 3,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "book-tracer",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "book-tracer",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}
+{
+	"Name": "handler",
+	"SpanContext": {
+		"TraceID": "583459d7925e24af83cfd73269d9c568",
+		"SpanID": "c2dbea574ec18570",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 2,
+	"StartTime": "2025-06-17T21:50:40.052821+02:00",
+	"EndTime": "2025-06-17T21:50:40.053341+02:00",
+	"Attributes": [
+		{
+			"Key": "server.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "localhost"
+			}
+		},
+		{
+			"Key": "http.request.method",
+			"Value": {
+				"Type": "STRING",
+				"Value": "PATCH"
+			}
+		},
+		{
+			"Key": "url.scheme",
+			"Value": {
+				"Type": "STRING",
+				"Value": "http"
+			}
+		},
+		{
+			"Key": "server.port",
+			"Value": {
+				"Type": "INT64",
+				"Value": 8080
+			}
+		},
+		{
+			"Key": "network.peer.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "::1"
+			}
+		},
+		{
+			"Key": "network.peer.port",
+			"Value": {
+				"Type": "INT64",
+				"Value": 54326
+			}
+		},
+		{
+			"Key": "user_agent.original",
+			"Value": {
+				"Type": "STRING",
+				"Value": "PostmanRuntime/7.44.0"
+			}
+		},
+		{
+			"Key": "client.address",
+			"Value": {
+				"Type": "STRING",
+				"Value": "::1"
+			}
+		},
+		{
+			"Key": "url.path",
+			"Value": {
+				"Type": "STRING",
+				"Value": "/books/2/borrow"
+			}
+		},
+		{
+			"Key": "network.protocol.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.1"
+			}
+		},
+		{
+			"Key": "http.request.body.size",
+			"Value": {
+				"Type": "INT64",
+				"Value": 33
+			}
+		},
+		{
+			"Key": "http.response.body.size",
+			"Value": {
+				"Type": "INT64",
+				"Value": 18
+			}
+		},
+		{
+			"Key": "http.response.status_code",
+			"Value": {
+				"Type": "INT64",
+				"Value": 400
+			}
+		}
+	],
+	"Events": null,
+	"Links": null,
+	"Status": {
+		"Code": "Unset",
+		"Description": ""
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 1,
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"InstrumentationScope": {
+		"Name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+		"Version": "0.61.0",
+		"SchemaURL": "",
+		"Attributes": null
+	},
+	"InstrumentationLibrary": {
+		"Name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+		"Version": "0.61.0",
+		"SchemaURL": "",
+		"Attributes": null
+	}
+}

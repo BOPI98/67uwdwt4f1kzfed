@@ -13,6 +13,9 @@ import (
 )
 
 var (
+	ErrUnknownBook     = errors.New("Unknown book!")
+	ErrUnknownBorrower = errors.New("Unknown borrower!")
+
 	bookTracer = otel.Tracer("book-tracer")
 	bookMeter  = otel.Meter("book-meter")
 	bookCount  metric.Int64Counter
@@ -106,20 +109,21 @@ func BorrowBook(db *sql.DB, ctx context.Context, bookId, borrowerId int) error {
 		}
 	}()
 
-	row := db.QueryRow("SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?", borrowerId)
-	if row.Err() != nil {
-		if row.Err() == sql.ErrNoRows {
-			return errors.New("Unknown Borrower!")
+	var temp int
+	err = db.QueryRow("SELECT 1 FROM BORROWERS WHERE `BorrowerId`=?", borrowerId).Scan(&temp)
+	if err != nil {
+		if errors.Is(err, sql.ErrNoRows) {
+			return ErrUnknownBorrower
 		}
-		return row.Err()
+		return err
 	}
 
-	row = db.QueryRow("SELECT 1 FROM BOOKS WHERE `BookId`=?", bookId)
-	if row.Err() != nil {
-		if row.Err() == sql.ErrNoRows {
-			return errors.New("Unknown Book!")
+	err = db.QueryRow("SELECT 1 FROM BOOKS WHERE `BookId`=?", bookId).Scan(&temp)
+	if err != nil {
+		if errors.Is(err, sql.ErrNoRows) {
+			return ErrUnknownBook
 		}
-		return row.Err()
+		return err
 	}
 
 	_, err = tx.ExecContext(ctx, "UPDATE BOOKS SET `BorrowedBy`=? WHERE `BookId`=?", borrowerId, bookId)

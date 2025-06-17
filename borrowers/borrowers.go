@@ -4,8 +4,11 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"main/books"
+
+	"github.com/BOPI98/67uwdwt4f1kzfed/books"
 )
+
+var ErrUnknownBorrower = errors.New("Unknown borrower!")
 
 type Borrower struct {
 	Fullname    string `json:"fullname"`
@@ -43,15 +46,12 @@ func CreateBorrower(db *sql.DB, ctx context.Context, borrower Borrower) (int, er
 func GetBorrower(db *sql.DB, ctx context.Context, borrowerId int) (*Borrower, error) {
 	Result := &Borrower{}
 
-	row := db.QueryRow("SELECT `Fullname`,`Email`,`PhoneNumber`,`Age` FROM BORROWERS WHERE `BorrowerId`=?", borrowerId)
-	if row.Err() != nil {
-		if row.Err() == sql.ErrNoRows {
-			return nil, errors.New("Borrower not found!")
-		}
-		return nil, row.Err()
-	}
-	err := row.Scan(&Result.Fullname, &Result.Email, &Result.PhoneNumber, &Result.Age)
+	err := db.QueryRow("SELECT `Fullname`,`Email`,`PhoneNumber`,`Age` FROM BORROWERS WHERE `BorrowerId`=?", borrowerId).
+		Scan(&Result.Fullname, &Result.Email, &Result.PhoneNumber, &Result.Age)
 	if err != nil {
+		if errors.Is(err, sql.ErrNoRows) {
+			return nil, ErrUnknownBorrower
+		}
 		return nil, err
 	}
 	return Result, nil

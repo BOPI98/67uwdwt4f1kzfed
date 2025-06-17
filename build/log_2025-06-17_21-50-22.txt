@@ -1,0 +1,153 @@
+{
+	"Timestamp": "2025-06-17T21:50:25.9800193+02:00",
+	"ObservedTimestamp": "2025-06-17T21:50:25.9800193+02:00",
+	"Severity": 9,
+	"SeverityText": "INFO",
+	"Body": {
+		"Type": "String",
+		"Value": "PATCH /books/2/borrow"
+	},
+	"Attributes": [],
+	"TraceID": "00000000000000000000000000000000",
+	"SpanID": "0000000000000000",
+	"TraceFlags": "00",
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"Scope": {
+		"Name": "library-management",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": {}
+	},
+	"DroppedAttributes": 0
+}
+{
+	"Timestamp": "2025-06-17T21:50:31.0678364+02:00",
+	"ObservedTimestamp": "2025-06-17T21:50:31.0678364+02:00",
+	"Severity": 9,
+	"SeverityText": "INFO",
+	"Body": {
+		"Type": "String",
+		"Value": "PATCH /books/99999992/borrow"
+	},
+	"Attributes": [],
+	"TraceID": "00000000000000000000000000000000",
+	"SpanID": "0000000000000000",
+	"TraceFlags": "00",
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"Scope": {
+		"Name": "library-management",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": {}
+	},
+	"DroppedAttributes": 0
+}
+{
+	"Timestamp": "2025-06-17T21:50:40.052821+02:00",
+	"ObservedTimestamp": "2025-06-17T21:50:40.052821+02:00",
+	"Severity": 9,
+	"SeverityText": "INFO",
+	"Body": {
+		"Type": "String",
+		"Value": "PATCH /books/2/borrow"
+	},
+	"Attributes": [],
+	"TraceID": "00000000000000000000000000000000",
+	"SpanID": "0000000000000000",
+	"TraceFlags": "00",
+	"Resource": [
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "unknown_service:server.exe"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.36.0"
+			}
+		}
+	],
+	"Scope": {
+		"Name": "library-management",
+		"Version": "",
+		"SchemaURL": "",
+		"Attributes": {}
+	},
+	"DroppedAttributes": 0
+}
